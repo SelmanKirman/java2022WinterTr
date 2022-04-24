@@ -20,5 +20,7 @@ public class C04_IsimGizleme {
 
 
         String yeniKKNo="**** **** **** " + kKNo.substring(12);
+
+        System.out.println("isim soyisim : " +yeniIsim+" "+yeniSoyisim + "\nYeni kart no : " + yeniKKNo);
     }
 }
