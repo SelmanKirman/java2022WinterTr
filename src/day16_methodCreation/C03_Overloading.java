@@ -26,6 +26,19 @@ public class C03_Overloading {
         double sayi6=3.2;
 
         ikiSayiTopla(sayi5,sayi6);
+        ikiSayiTopla(sayi5,sayi6);
+
+        //
+    }
+
+    private static void ikiSayiTopla(int sayi3, double sayi4) {
+
+        System.out.println("bir int bir double toplami : " + (sayi3+sayi4));
+    }
+
+    private static void ikiSayiTopla(double sayi3, int sayi4) {
+
+        System.out.println("bir int bir double toplami : " + (sayi3+sayi4));
     }
 
     private static void ikiSayiTopla(double sayi3, double sayi4) {
@@ -37,4 +50,6 @@ public class C03_Overloading {
 
         System.out.println("iki sayinin toplami : " + (sayi1+sayi2));
     }
+
+
 }
