@@ -9,5 +9,12 @@ public class C01_Sort {
 
         System.out.println(Arrays.toString(arr)); // [S, M, A, T]
 
+        Arrays.sort(arr);
+
+        System.out.println(Arrays.toString(arr)); // [A, M, S, T]
+        // Java da bu siralamaya Natural Order denir
+        // sayi olursa kucukten buyuge
+        // metin olursa alfabetik siraya gore
+
     }
 }
